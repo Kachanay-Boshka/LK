@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+void counting() {
+	char word [100];
+	cout << "Enter your last name: ";
+	cin >> word; 
+	cout << "Your option: " ;
+	cout << strlen(word) % 2 + 1;
+}
+
+int main() {
+	counting ();
+	return 0;
+}
